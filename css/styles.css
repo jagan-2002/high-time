@@ -1,0 +1,141 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid{
+  padding-top:3%;
+  padding-bottom: 7%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+h1{
+  font-size: 3.5rem;
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:25%;
+
+  }
+#features{
+  background-color: #fff;
+  position: relative;
+
+}
+.disc-container{
+  margin-bottom: 50px;
+}
+.pic{
+  color:#EF8172;
+}
+.pic:hover{
+  color:#FF4C68;}
+.row-desc{
+  text-align: center;
+
+  }
+.desc-pic{
+  margin-top:100px;
+  margin-bottom:25px;
+}
+
+.desc{
+  font-family: "serif";
+  font-size: 1.1rem;
+}
+
+#testimonials{
+
+  text-align: center;
+  background-color: #EF8172;
+  color: #FFF;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.test{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.test-image{
+  width: 10%;
+  border-radius:100%;
+  margin: 20px;
+}
+#press{
+  background-color: #EF8172;
+  text-align: center;
+  padding:3%
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.padding-column{
+  padding:3% 2%;
+}
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 50px;
+
+}
+.end{
+  margin:20px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 3rem;
+}
+#footer{
+  text-align: center;
+}
+.footerLink{
+  text-decoration: none;
+  margin-left: 25px;
+}
+.last{
+  margin: 10px;
+}
+.copyright{
+  margin-top:25px;
+}
